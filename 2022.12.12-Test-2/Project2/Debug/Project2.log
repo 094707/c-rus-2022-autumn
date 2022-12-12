@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\C++\programming-c-2022-autumn\2022.12.12-Test-2\Project2\Source.cpp(28): warning C4715: revers2: значение возвращается не при всех путях выполнения
+C:\C++\programming-c-2022-autumn\2022.12.12-Test-2\Project2\Source.cpp(17): warning C4715: revers1: значение возвращается не при всех путях выполнения
+  Project2.vcxproj -> C:\C++\programming-c-2022-autumn\2022.12.12-Test-2\Debug\Project2.exe
