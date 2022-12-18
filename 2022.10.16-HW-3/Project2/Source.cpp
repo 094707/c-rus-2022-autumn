@@ -13,7 +13,7 @@ int main(int argc,char* argv[])
 			k += 1;
 		}
 	} while (a != 0);
-	std::cout << k;
+	std::cout << k << std::endl;
 
 	return EXIT_SUCCESS;
 }
