@@ -7,7 +7,7 @@
 *.o
 *.obj
 debug.log
-vs
+vs/
 
 # Precompiled Headers
 *.gch
