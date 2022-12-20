@@ -8,6 +8,7 @@
 *.obj
 debug.log
 .vs/
+v16
 
 # Precompiled Headers
 *.gch
