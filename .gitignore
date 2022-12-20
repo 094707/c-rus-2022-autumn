@@ -1,5 +1,9 @@
 # Prerequisites
 *.d
+*v16/
+.suo
+Browse.VC.db
+Solution.VC.db
 
 # Compiled Object files
 *.slo
@@ -40,7 +44,7 @@ bld/
 [Oo]ut/
 [Ll]og/
 [Ll]ogs/
-*v16/
+
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
