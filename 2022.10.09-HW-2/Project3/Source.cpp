@@ -8,20 +8,14 @@ int main(int argc, char* argv[])
 	int res = 0;
 
 	std::cin >> k >> m >> n;
-	if (n <= k)
+	
+	if (n % k == 0)
 	{
-		res = 2 * m;
+		res = m * 2 * n / k;
 	}
 	else
 	{
-		if (n % k == 0)
-		{
-			res = m * (2 * n / k);
-		}
-		else
-		{
-			res = m * (2 * n / k + 1);
-		}
+		res = m * (2 * n / k + 1);
 	}
 	std::cout << res << std::endl;
 

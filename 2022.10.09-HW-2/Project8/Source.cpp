@@ -18,25 +18,31 @@ int main(int argc, char* argv[])
 		{
 			n = a;
 		}
-		if ((b >= a) && (b >= c))
+		else
 		{
-			n = b;
-		}
-		if ((c >= b) && (c >= a))
-		{
-			n = c;
+			if ((b >= a) && (b >= c))
+			{
+				n = b;
+			}
+			else
+			{
+				n = c;
+			}
 		}
 		if ((2 * n * n > a * a + b * b + c * c))
 		{
 			std::cout << "obtuse" << std::endl;
 		}
-		if ((2 * n * n == a * a + b * b + c * c))
+		else
 		{
-			std::cout << "right" << std::endl;
-		}
-		if ((2 * n * n < a * a + b * b + c * c))
-		{
-			std::cout << "acute" << std::endl;
+			if ((2 * n * n == a * a + b * b + c * c))
+			{
+				std::cout << "right" << std::endl;
+			}
+			else
+			{
+				std::cout << "acute" << std::endl;
+			}
 		}
 	}
 

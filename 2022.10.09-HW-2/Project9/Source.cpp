@@ -2,19 +2,19 @@
 
 int main(int argc, char* argv[])
 {
-	int M = 0;
-	int N = 0;
+	int m = 0;
+	int n = 0;
 	int x = 0;
 	int y = 0;
 
-	std::cin >> M >> N >> x >> y;
+	std::cin >> m >> n >> x >> y;
 	if (x == 1)
 	{
 		std::cout << x + 1 << ' ' << y << std::endl;
 	}
 	else
 	{
-		if (x == M)
+		if (x == m)
 		{
 			std::cout << x - 1 << ' ' << y << std::endl;
 		}
@@ -30,7 +30,7 @@ int main(int argc, char* argv[])
 	}
 	else
 	{
-		if (y == N)
+		if (y == n)
 		{
 			std::cout << x << ' ' << y - 1 << std::endl;
 		}
